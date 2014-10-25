@@ -1,0 +1,77 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'grunt-contrib-connect@2.13.1' ]
+2 info using npm@2.0.2
+3 info using node@v0.10.31
+4 verbose node symlink /usr/local/bin/node
+5 warn package.json helloGrunt@1.0.0 No repository field.
+6 warn package.json helloGrunt@1.0.0 No README data
+7 warn package.json grunt-contrib-livereload@0.1.2 No README data
+8 warn package.json karma-chrome-launcher@0.1.5 No README data
+9 verbose readDependencies using package.json deps
+10 verbose cache add [ 'grunt-contrib-connect@2.13.1', null ]
+11 verbose cache add spec="grunt-contrib-connect@2.13.1" args=["grunt-contrib-connect@2.13.1",null]
+12 verbose parsed spec { raw: 'grunt-contrib-connect@2.13.1',
+12 verbose parsed spec   scope: null,
+12 verbose parsed spec   name: 'grunt-contrib-connect',
+12 verbose parsed spec   rawSpec: '2.13.1',
+12 verbose parsed spec   spec: '2.13.1',
+12 verbose parsed spec   type: 'version' }
+13 verbose parsed spec { raw: 'grunt-contrib-connect@2.13.1',
+13 verbose parsed spec   scope: null,
+13 verbose parsed spec   name: 'grunt-contrib-connect',
+13 verbose parsed spec   rawSpec: '2.13.1',
+13 verbose parsed spec   spec: '2.13.1',
+13 verbose parsed spec   type: 'version' }
+14 verbose addNamed [ 'grunt-contrib-connect', '2.13.1' ]
+15 verbose addNamed [ '2.13.1', '2.13.1' ]
+16 silly lockFile 8035265c-grunt-contrib-connect-2-13-1 grunt-contrib-connect@2.13.1
+17 verbose lock grunt-contrib-connect@2.13.1 /Users/admin/.npm/8035265c-grunt-contrib-connect-2-13-1.lock
+18 verbose mapToRegistry name grunt-contrib-connect
+19 verbose mapToRegistry uri https://registry.npmjs.org/grunt-contrib-connect
+20 verbose request on initialization, where is /grunt-contrib-connect
+21 verbose request after pass 1, where is /grunt-contrib-connect
+22 verbose request url raw /grunt-contrib-connect
+23 verbose request resolving registry [ 'https://registry.npmjs.org/', './grunt-contrib-connect' ]
+24 verbose request after pass 2, where is https://registry.npmjs.org/grunt-contrib-connect
+25 verbose request no auth needed
+26 info attempt registry request try #1 at 14:32:36
+27 verbose request id 7e72ee4e048c171a
+28 verbose etag "8M3PWZ6KKERVGAJXPJFTFL5PQ"
+29 http request GET https://registry.npmjs.org/grunt-contrib-connect
+30 http 304 https://registry.npmjs.org/grunt-contrib-connect
+31 silly registry.get cb [ 304,
+31 silly registry.get   { date: 'Sat, 25 Oct 2014 06:32:37 GMT',
+31 silly registry.get     server: 'Apache',
+31 silly registry.get     via: '1.1 varnish',
+31 silly registry.get     'last-modified': 'Sat, 25 Oct 2014 06:32:37 GMT',
+31 silly registry.get     'cache-control': 'max-age=60',
+31 silly registry.get     etag: '"8M3PWZ6KKERVGAJXPJFTFL5PQ"',
+31 silly registry.get     age: '0',
+31 silly registry.get     'x-served-by': 'cache-ty67-TYO',
+31 silly registry.get     'x-cache': 'HIT',
+31 silly registry.get     'x-cache-hits': '1',
+31 silly registry.get     'x-timer': 'S1414218757.075263,VS0,VE127',
+31 silly registry.get     vary: 'Accept',
+31 silly registry.get     'content-length': '0',
+31 silly registry.get     'keep-alive': 'timeout=10, max=50',
+31 silly registry.get     connection: 'Keep-Alive' } ]
+32 verbose etag https://registry.npmjs.org/grunt-contrib-connect from cache
+33 silly lockFile 8035265c-grunt-contrib-connect-2-13-1 grunt-contrib-connect@2.13.1
+34 silly lockFile 8035265c-grunt-contrib-connect-2-13-1 grunt-contrib-connect@2.13.1
+35 verbose stack Error: version not found: grunt-contrib-connect@2.13.1
+35 verbose stack     at setData (/usr/local/lib/node_modules/npm/lib/cache/add-named.js:127:12)
+35 verbose stack     at saved (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/get.js:167:7)
+35 verbose stack     at Object.oncomplete (fs.js:107:15)
+36 verbose statusCode 404
+37 verbose cwd /Users/admin/Sites/StaticWeb/helloGrunt
+38 error Darwin 14.0.0
+39 error argv "node" "/usr/local/bin/npm" "install" "grunt-contrib-connect@2.13.1"
+40 error node v0.10.31
+41 error npm  v2.0.2
+42 error version not found: grunt-contrib-connect@2.13.1
+43 error If you need help, you may report this error at:
+43 error     <http://github.com/npm/npm/issues>
+44 verbose exit [ 1, true ]

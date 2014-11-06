@@ -1,4 +1,13 @@
 {
+  "name": "helloGrunt",
+  "version": "1.0.0",
+  "description": "None",
+  "main": "app/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eten Gstar",
+  "license": "ISC",
   "engines": {
     "node": ">= 0.10.0"
   },
@@ -17,18 +26,6 @@
     "karma": "~0.12.24",
     "grunt-karma":"~0.9.0",
     "karma-jasmine": "~0.1.5",
-    "karma-chrome-launcher": "~0.1.5",
-  },
-  "name": "helloGrunt",
-  "version": "1.0.0",
-  "description": "None",
-  "main": "src/index.html",
-  "dependencies": {
-    "grunt": "^0.4.5"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Eten Gstar",
-  "license": "ISC"
+    "karma-chrome-launcher": "~0.1.5"
+  }
 }

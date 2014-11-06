@@ -1,3 +1,4 @@
+$va : #ddd;
 .fakeshadow
 {
     border:
@@ -13,5 +14,13 @@
             width: 2px;
             color: #ccc;
         }
+    }
+}
+
+.asas
+{
+    .dasda
+    {
+        color: $va;
     }
 }

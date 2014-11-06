@@ -41,6 +41,7 @@ module.exports = function(grunt) {
         concat: {
             js: { 
                 src: ['<%= config.app %>/js/**/*.js'],
+                // 注释可以选择不生成目录
                 dest: '<%= config.dist %>/combine/<%= pkg.name %>.js'
             },
             css: {
@@ -174,7 +175,7 @@ module.exports = function(grunt) {
     // 部署js文件和css文件（分别将js和css文件合并压缩为一个文件）
     grunt.registerTask('build',['clean:dist','compile','combine','cssmin:build','uglify:build']);
     //将当前站点作为服务启动
-    grunt.registerTask('server', ['watch:compile','connect:livereload','watch']);
+    grunt.registerTask('server', ['connect:livereload','watch','watch:compile']);
     // 启动js单元测试服务
     grunt.registerTask('test', ['karma']);
     // 设置grunt默认任务为server
